@@ -1,0 +1,59 @@
+body{
+    background-color: #1e324a; 
+    background: -webkit-linear-gradient(left, #1D324B , #192B41); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #1D324B, #192B41); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #1D324B, #192B41); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left, #1D324B , #192B41); /* Standard syntax */
+}
+
+form{
+    margin: 5em;
+    padding: 2em;
+
+    background-color: #223c57;
+}
+
+input.select-dropdown{
+    color: white;
+}
+
+label.inputForm{
+    text-transform : uppercase;
+    color : lightgrey;
+}
+
+h2.form-title{
+    text-transform: uppercase;
+    color: white;
+    font-size: 2em;
+    font-family : Verdana, Helvetica, sans-serif;
+}
+
+div#fillForm{
+    margin-left: 0.5em;
+}         
+
+
+div#button-register{
+    margin-top: -3em;
+}
+
+ul.dropdown-content.select-dropdown.active{
+    background-color: #214664;
+}
+
+ul.dropdown-content.select-dropdown.active > li > span{
+    color: white;
+}
+
+/**
+
+Differents blues
+From darker to lighter
+#192B41
+#1D324B
+#213B58 or #214664
+
+**/
+
+

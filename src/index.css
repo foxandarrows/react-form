@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+div#root{
+  /** Flexbox **/
+  display: flex;
+  flex-direction : row;
+  flex-wrap: wrap;
+  justify-content : center;
+}
+
+input {
+  color: white;
+}
